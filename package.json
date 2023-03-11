@@ -1,7 +1,6 @@
 {
-    "name": "grammy-vercel-boilerplate",
+    "name": "ts_cleaner",
     "version": "1.0.0",
-    "description": "Grammy boilerplate to develop and host telegram bots on Vercel",
     "main": "api/index.ts",
     "scripts": {
         "build": "tsc",
@@ -11,21 +10,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/neumanf/grammy-vercel-boilerplate.git"
+        "url": "git+https://github.com/BlueRexPY/TSCleaner.git"
     },
     "keywords": [
-        "boilerplate",
-        "telegram-bot",
-        "vercel",
-        "vercel-now",
-        "grammy"
+        "telegram-bot"
     ],
-    "author": "neumanf",
+    "author": "Ruslan Rystsov",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/neumanf/grammy-vercel-boilerplate/issues"
-    },
-    "homepage": "https://github.com/neumanf/grammy-vercel-boilerplate#readme",
     "dependencies": {
         "grammy": "^1.6.1"
     },
