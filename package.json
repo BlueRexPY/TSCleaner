@@ -5,6 +5,7 @@
     "scripts": {
         "build": "tsc",
         "dev": "nodemon src/index.ts",
+        "prod": "npm run build && node dist/src/index.js",
         "lint": "eslint . --cache --ext .ts,.js",
         "format": "prettier --write 'src/**/*.ts'"
     },

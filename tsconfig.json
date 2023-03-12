@@ -4,7 +4,7 @@
         "module": "commonjs",
         "lib": ["es2017", "es7", "es6"],
         "allowJs": true,
-        "outDir": "./public",
+        "outDir": "./dist",
         "strict": true,
         "baseUrl": ".",
         "esModuleInterop": true,
