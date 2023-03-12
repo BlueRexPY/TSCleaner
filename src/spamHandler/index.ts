@@ -27,9 +27,9 @@ const isSpam = (message: string) => {
 composer.on('message', (ctx) => {
   const { message, from } = ctx;
 
-  if (message && isSpam(message.text || '') && from.is_bot && from.username === 'pipisabot') {
+  if (message && from.is_bot && from.username === 'pipisabot') {
     ctx.deleteMessage();
-    ctx.reply('тестове повідомлення щоб знати чи працює бот взагалі');
+    ctx.reply('Спам видалено 🧹');
   }
 });
 

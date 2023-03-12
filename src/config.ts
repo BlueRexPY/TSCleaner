@@ -1,7 +1,7 @@
 const app = {
   name: 'TSCleaner',
-  date: '03.11.23',
-  version: '0.1',
+  date: '12.03.23',
+  version: '0.2',
   github: 'github.com/BlueRexPY/TSCleaner',
   description: 'Spam cleaning bot by "Pipisa Bot"',
 };
